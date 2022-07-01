@@ -1,0 +1,25 @@
+base:
+  controller: com.yangjq.common.base.BaseController
+  service: com.yangjq.common.base.BaseService
+  serviceImpl: com.yangjq.common.base.BaseServiceImpl
+  entity: com.yangjq.common.base.BaseEntity
+  criteria: com.yangjq.common.query.QueryCriteria
+
+author: yangjq
+
+datasource:
+  # 测试数据库
+  ip:
+  database:
+  username:
+  password:
+
+path:
+  projectPath: D://ZZ/ #项目所在地，这里建议设置为一个空路径
+  parentPath: com.jiayi #域名反写
+  moduleName: system #模块名
+
+table:
+  names: social_user #要自动生成模板代码的表
+  prefix:  #表前缀，没有可以不写
+
