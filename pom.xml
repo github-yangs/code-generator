@@ -20,14 +20,6 @@
       <artifactId>mybatis-plus-generator</artifactId>
       <version>3.5.1</version>
     </dependency>
-    <!-- 引入 annotation 依赖：FieldFill，IdType等-->
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus-boot-starter</artifactId>
-      <version>3.4.3.4</version>
-      <scope>provided</scope> <!--由父类提供-->
-    </dependency>
-
     <!-- 模板引擎 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -40,7 +32,20 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.26</version>
-      <scope>provided</scope> <!--由父类提供-->
+    </dependency>
+
+    <!-- 引入 annotation 依赖：FieldFill，IdType等-->
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <version>3.4.3.4</version>
+    </dependency>
+
+    <!--Hutool Java工具包-->
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-all</artifactId>
+      <version>5.7.12</version>
     </dependency>
 
     <!-- lombok -->
@@ -50,16 +55,5 @@
       <version>1.16.18</version>
       <scope>provided</scope> <!--由父类提供-->
     </dependency>
-
-    <!--Hutool Java工具包-->
-    <dependency>
-      <groupId>cn.hutool</groupId>
-      <artifactId>hutool-all</artifactId>
-      <version>5.7.12</version>
-      <scope>provided</scope> <!--由父类提供-->
-    </dependency>
-
   </dependencies>
-
-
 </project>

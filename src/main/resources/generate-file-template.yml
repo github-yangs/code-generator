@@ -1,9 +1,9 @@
 base:
-  controller: com.yangjq.common.base.BaseController
-  service: com.yangjq.common.base.BaseService
-  serviceImpl: com.yangjq.common.base.BaseServiceImpl
-  entity: com.yangjq.common.base.BaseEntity
-  criteria: com.yangjq.common.query.QueryCriteria
+  controller: com.jiayi.mproot.base.BaseController
+  service: com.jiayi.mproot.base.BaseService
+  serviceImpl: com.jiayi.mproot.base.BaseServiceImpl
+  entity: com.jiayi.mproot.base.BaseEntity
+  criteria: com.jiayi.mproot.query.QueryCriteria
 
 author: yangjq
 
